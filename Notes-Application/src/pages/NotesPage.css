@@ -1,0 +1,22 @@
+.note-tile {
+  padding: 5px;
+  margin: 5px;
+  height: 35px;
+  width: 75vw;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.298);
+  text-align: center;
+  border-radius: 5px;
+}
+.button {
+  width: 100px;
+  height: 35px;
+  margin: 10px;
+  color: white;
+  background-color: rgb(166, 111, 8);
+  border: none;
+  border-radius: 10px;
+}
+.invisible-button {
+
+}

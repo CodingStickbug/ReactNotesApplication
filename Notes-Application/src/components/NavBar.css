@@ -1,0 +1,24 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(36, 31, 23);
+  height: 65px;
+}
+.nav-link-button {
+  text-decoration: none;
+  padding: 7px 0px;
+  text-align: center;
+  width: 100px;
+  height: 35px;
+  margin: 10px;
+  color: white;
+  background-color: rgb(48, 40, 26);
+  border: none;
+  border-radius: 10px;
+}
+.nav-link-button:hover {
+  background-color: rgb(68, 57, 38);
+}
+.nav-link-button.active {
+  text-decoration: underline;
+}
