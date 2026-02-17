@@ -5,7 +5,7 @@ export function NotePage({ selectedNote }) {
   return (
     <>
       <title>Note</title>
-      <AppBar />
+      <AppBar previousPageRoute="/notes"/>
       <div className="main-content">
         <p className="note">{selectedNote}</p>
       </div>

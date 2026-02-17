@@ -30,7 +30,10 @@ function App() {
             />
           }
         />
-        <Route path="/note" element={<NotePage selectedNote={selectedNote} />} />
+        <Route
+          path="/note"
+          element={<NotePage selectedNote={selectedNote} />}
+        />
       </Routes>
     </>
   );
